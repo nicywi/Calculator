@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a05d750-e5aa-40d7-a7aa-76edd5c234f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/nicywi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/nicywi/AppTest.java" afterDir="false" />
+    <list default="true" id="3a05d750-e5aa-40d7-a7aa-76edd5c234f9" name="Changes" comment="calculator app with gui">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/nicywi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/nicywi/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1694181722298</updated>
     </task>
+    <task id="LOCAL-00001" summary="calculator app with gui">
+      <option name="closed" value="true" />
+      <created>1694184848681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694184848681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="calculator app with gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator app with gui" />
   </component>
 </project>

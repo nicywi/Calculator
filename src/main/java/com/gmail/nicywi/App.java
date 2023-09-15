@@ -16,7 +16,11 @@ public class App implements ActionListener {
     JButton decButton, equButton, delButton, clrButton, negButton;
     JPanel panel;
 
-    Font font = new Font("Helvetica", Font.BOLD, 30);
+    Font font = new Font("Helvetica", Font.BOLD, 23);
+    Color customPink = new Color(247, 116, 216);
+    Color customDarkPink = new Color(226, 66, 165);
+//    Color cos = new Color(0x00FFFF);
+    Color customOrangePink = new Color(252, 173, 191);
 
     double num1 = 0, num2 = 0, result = 0;
     char operator;
@@ -25,12 +29,16 @@ public class App implements ActionListener {
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 550);
+        frame.setResizable(false);
         frame.setLayout(null);
+        frame.getContentPane().setBackground(customOrangePink);
 
         textField = new JTextField();
         textField.setBounds(50, 25, 300, 50);
         textField.setFont(font);
+        textField.setForeground(Color.WHITE);
         textField.setEditable(false);
+        textField.setBackground(customDarkPink);
 
         addButton = new JButton("+");
         subButton = new JButton("-");
@@ -55,6 +63,7 @@ public class App implements ActionListener {
         for (int i = 0; i < 9; i++) {
             functionButtion[i].addActionListener(this);
             functionButtion[i].setFont(font);
+            functionButtion[i].setForeground(customDarkPink);
             functionButtion[i].setFocusable(false);
         }
 
@@ -62,6 +71,9 @@ public class App implements ActionListener {
             numberButtons[i] = new JButton(String.valueOf(i));
             numberButtons[i].addActionListener(this);
             numberButtons[i].setFont(font);
+            numberButtons[i].setForeground(customDarkPink);
+            //numberButtons[i].setBackground(customOrangePink);
+            //numberButtons[i].setOpaque(true);
             numberButtons[i].setFocusable(false);
 
         }
@@ -69,10 +81,12 @@ public class App implements ActionListener {
         delButton.setBounds(150, 430, 100, 50);
         clrButton.setBounds(250, 430, 100, 50);
 
+        ImageIcon image = new ImageIcon("img.png");
+        clrButton.setIcon(image);
         panel = new JPanel();
         panel.setBounds(50, 100, 300, 300);
         panel.setLayout(new GridLayout(4, 4, 10, 10));
-        panel.setBackground(Color.LIGHT_GRAY);
+        panel.setBackground(customDarkPink);
 
         panel.add(numberButtons[1]);
         panel.add(numberButtons[2]);
