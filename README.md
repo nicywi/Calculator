@@ -16,7 +16,7 @@ The calculator buttons are organized in a 4x4 grid using a JPanel with GridLayou
 ### Styling: 
 Custom fonts, colors, and icons are used to style the calculator interface.
 
-[![Demo Video](https://img.youtube.com/vi/C6MxanFAv9g/0.jpg)]([https://youtu.be/C6MxanFAv9g)
+[![Watch the Demo Video](https://img.youtube.com/vi/C6MxanFAv9g/0.jpg)](https://youtu.be/C6MxanFAv9g)
 
 
 
